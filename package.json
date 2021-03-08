@@ -1,0 +1,20 @@
+{
+  "name": "lwc-test-case-slot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "rollup": "rollup --config rollup.config.js",
+    "preserve": "npm run rollup",
+    "serve": "serve .dist"
+  },
+  "devDependencies": {
+    "@lwc/rollup-plugin": "^1.17.5",
+    "lwc": "^1.17.5",
+    "rollup": "^2.40.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "serve": "^11.3.2"
+  },
+  "dependencies": {
+    "@rollup/plugin-replace": "^2.4.1"
+  }
+}
